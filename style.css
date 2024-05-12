@@ -22,3 +22,12 @@
     border-radius: 30px;
     cursor: pointer;
 }
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
