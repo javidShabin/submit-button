@@ -9,13 +9,13 @@
 <body>
 
     <div class="container">
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="btn" onclick="openPopup()">Submit</button>
 
-        <div class="popup">
+        <div class="popup" id="popup">
             <img src="./image/404-tick.png">
             <h2>Thank You!</h2>
             <p>Your details has been successfully submittd. Thanks!</p>
-            <button type="button">Ok</button>
+            <button type="button" onclick="closePopup()">Ok</button>
         </div>
     </div>
     
